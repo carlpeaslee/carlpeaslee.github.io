@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<section id="left">
+	<canvas id="lines"></canvas>
+	<section id="timeline">
+			<time id="present" datetime='present'>present</time>
+			<time class='year' datetime='2016-1-1'>2016</time>
+				<time datetime= '2015-12-1'>&mdash;</time>
+				<time datetime= '2015-11-1'>&mdash;</time>
+				<time datetime= '2015-10-1'>&mdash;</time>
+				<time datetime= '2015-9-1'>&mdash;</time>
+				<time datetime= '2015-8-1'>&mdash;</time>
+				<time datetime= '2015-7-1'>&mdash;</time>
+				<time datetime= '2015-6-1'>&mdash;</time>
+				<time datetime= '2015-5-1'>&mdash;</time>
+				<time datetime= '2015-4-1'>&mdash;</time>
+				<time datetime= '2015-3-1'>&mdash;</time>
+				<time datetime= '2015-2-1'>&mdash;</time>
+			<time class='year' datetime='2015-1-1'>2015</time>
+				<time datetime= '2014-12-1'>&mdash;</time>
+				<time datetime= '2014-11-1'>&mdash;</time>
+				<time datetime= '2014-10-1'>&mdash;</time>
+				<time datetime= '2014-9-1'>&mdash;</time>
+				<time datetime= '2014-8-1'>&mdash;</time>
+				<time datetime= '2014-7-1'>&mdash;</time>
+				<time datetime= '2014-6-1'>&mdash;</time>
+				<time datetime= '2014-5-1'>&mdash;</time>
+				<time datetime= '2014-4-1'>&mdash;</time>
+				<time datetime= '2014-3-1'>&mdash;</time>
+				<time datetime= '2014-2-1'>&mdash;</time>
+			<time class='year' datetime='2014-1-1'>2014</time>
+				<time datetime= '2013-12-1'>&mdash;</time>
+				<time datetime= '2013-11-1'>&mdash;</time>
+				<time datetime= '2013-10-1'>&mdash;</time>
+				<time datetime= '2013-9-1'>&mdash;</time>
+				<time datetime= '2013-8-1'>&mdash;</time>
+				<time datetime= '2013-7-1'>&mdash;</time>
+				<time datetime= '2013-6-1'>&mdash;</time>
+				<time datetime= '2013-5-1'>&mdash;</time>
+				<time datetime= '2013-4-1'>&mdash;</time>
+				<time datetime= '2013-3-1'>&mdash;</time>
+				<time datetime= '2013-2-1'>&mdash;</time>
+			<time class='year' datetime='2013-1-1'>2013</time>
+				<time datetime= '2012-12-1'>&mdash;</time>
+				<time datetime= '2012-11-1'>&mdash;</time>
+				<time datetime= '2012-10-1'>&mdash;</time>
+				<time datetime= '2012-9-1'>&mdash;</time>
+				<time datetime= '2012-8-1'>&mdash;</time>
+				<time datetime= '2012-7-1'>&mdash;</time>
+				<time datetime= '2012-6-1'>&mdash;</time>
+				<time datetime= '2012-5-1'>&mdash;</time>
+				<time datetime= '2012-4-1'>&mdash;</time>
+				<time datetime= '2012-3-1'>&mdash;</time>
+				<time datetime= '2012-2-1'>&mdash;</time>
+			<time class='year' datetime='2012-1-1'>2012</time>
+				<time datetime= '2011-12-1'>&mdash;</time>
+				<time datetime= '2011-11-1'>&mdash;</time>
+				<time datetime= '2011-10-1'>&mdash;</time>
+				<time datetime= '2011-9-1'>&mdash;</time>
+				<time datetime= '2011-8-1'>&mdash;</time>
+				<time datetime= '2011-7-1'>&mdash;</time>
+				<time datetime= '2011-6-1'>&mdash;</time>
+				<time datetime= '2011-5-1'>&mdash;</time>
+				<time datetime= '2011-4-1'>&mdash;</time>
+				<time datetime= '2011-3-1'>&mdash;</time>
+				<time datetime= '2011-2-1'>&mdash;</time>
+			<time class='year' datetime='2011-1-1'>2011</time>
+				<time datetime= '2010-12-1'>&mdash;</time>
+				<time datetime= '2010-11-1'>&mdash;</time>
+				<time datetime= '2010-10-1'>&mdash;</time>
+				<time datetime= '2010-9-1'>&mdash;</time>
+				<time datetime= '2010-8-1'>&mdash;</time>
+				<time datetime= '2010-7-1'>&mdash;</time>
+				<time datetime= '2010-6-1'>&mdash;</time>
+				<time datetime= '2010-5-1'>&mdash;</time>
+				<time datetime= '2010-4-1'>&mdash;</time>
+				<time datetime= '2010-3-1'>&mdash;</time>
+				<time datetime= '2010-2-1'>&mdash;</time>
+			<time class='year' datetime='2010-1-1'>2010</time>
+				<time datetime= '2009-12-1'>&mdash;</time>
+				<time datetime= '2009-11-1'>&mdash;</time>
+				<time datetime= '2009-10-1'>&mdash;</time>
+				<time datetime= '2009-9-1'>&mdash;</time>
+				<time datetime= '2009-8-1'>&mdash;</time>
+				<time datetime= '2009-7-1'>&mdash;</time>
+				<time datetime= '2009-6-1'>&mdash;</time>
+				<time datetime= '2009-5-1'>&mdash;</time>
+				<time datetime= '2009-4-1'>&mdash;</time>
+				<time datetime= '2009-3-1'>&mdash;</time>
+				<time datetime= '2009-2-1'>&mdash;</time>
+			<time class='year' datetime='2009-1-1'>2009</time>
+				<time datetime= '2008 -12-1'>&mdash;</time>
+				<time datetime= '2008-11-1'>&mdash;</time>
+				<time datetime= '2008-10-1'>&mdash;</time>
+				<time datetime= '2008-9-1'>&mdash;</time>
+				<time datetime= '2008-8-1'>&mdash;</time>
+				<time datetime= '2008-7-1'>&mdash;</time>
+				<time datetime= '2008-6-1'>&mdash;</time>
+				<time datetime= '2008-5-1'>&mdash;</time>
+				<time datetime= '2008-4-1'>&mdash;</time>
+				<time datetime= '2008-3-1'>&mdash;</time>
+				<time datetime= '2008-2-1'>&mdash;</time>
+	</section>
+</section>
+<section id="middle">
+	<header id='0'>
+		<div id="name-art-access">
+			<ul class="no-bull">
+				<li id="name">carl peaslee </li>
+			</ul>
+		</div>
+		<div id="contact-info">
+			<ul class="no-bull">
+				<li>909 Summit Avenue, Apt 9</li>
+				<li>Minneapolis, MN 55403</li>
+				<li>(952) 261-5334</li>
+				<li>cpeaslee@gmail.com</li>
+			</ul>
+		</div>
+	</header>	
+	<main>
+		<section class="item" id="1">
+			<time class='end' datetime=''>Present</time>
+			<time class='start' datetime="2013-1-1">January, 2013 	&mdash;</time>
+			<ul class="no-bull">
+				<li> 
+					<span class="inst">Aynah</span>
+					<span class="location">Minneapolis, Minnesota</span>
+				</li>
+				<li class="focus">President, Board of Directors</li>	
+			</ul>
+			
+			<ul class="bullets">
+				<li class="art">Responsible for the overall financial health and programmatic success of an organization with two employees and a $80,000 operating budget</li>
+				<li class="access">Leading campaign to redefine organization mission and brand</li>
+				<li class="access art">ONE MORE THING HERE?!</li>
+			</ul>
+		</section>
+		<section class="item" id="2">
+			<time class='end' datetime='2015-5-15'>May, 2015</time>
+			<time class='start' datetime="2012-9-1">September, 2012 	&mdash;</time>
+			<ul class="no-bull">
+				<li>
+					<span class="inst">University of Minnesota</span>
+					<span class="location">Minneapolis, Minnesota</span>
+				</li>
+				<li class="focus">Masters of Fine Arts, Fiction Writing</li>
+			</ul>
+
+			<ul class="bullets">
+					<li>GPA: 3.98</li>
+					<li> Gesel Award '12, Gesel Award Runner-up '14</li>
+					<li>O'Rourke Fellowship</li>
+			</ul>
+		</section>
+		<section class="item" id="3">
+			<time class='end' datetime='2015-5-15'>May, 2015</time>
+			<time class='start' datetime="2012-9-1">September, 2012 	&mdash;</time>
+			<ul class="no-bull">
+				<li>
+					<span class="inst">University of Minnesota</span>
+					<span class="location">Minneapolis, Minnesota</span>
+				</li>
+				<li class="focus">Graduate Instructor</li>
+			</ul>
+
+			<ul class="bullets">
+				<li>In anonymous course evaluations, 100% of students indicated that they had gained a deeper understanding of course material as a result of my instruction</li>
+				<li>In official observations, supervisors described my teaching as "terrific," "upbeat," "energetic," "organized," and "skillful"</li>
+			</ul>
+		</section>
+		<section class="item" id="4">
+			<time class='end' datetime='2012-6-30'>August, 2012</time>
+			<time class='start' datetime="2011-6-15">August, 2011 	&mdash;</time>
+			<ul class="no-bull">
+				<li>
+					<span class="inst">Teach for America</span>
+					<span class="location">Brooklyn, New York</span>
+				</li>
+				<li class="focus">Kindergarten Teacher</li>
+			</ul>
+
+			<ul class="bullets">
+					<li>Created unique and inspiring group lesson plans (as well as individually tailored remedial lesson plans) to help 100% of students achieve 100% of the state mandated Common Core math standards</li>
+					<li>Inspired students to achieve an average of 1.6 years of reading growth during a single	academic year</li>
+			</ul>
+		</section>
+		<section class="item" id="5">
+			<time class='end' datetime='2011-5-15'>May, 2011</time>
+			<time class='start' datetime="2008-9-1">September, 2008 	&mdash;</time>
+			<ul class="no-bull">
+				<li>
+					<span class="inst">Claremont McKenna College</span>
+					<span class="location">Claremont, California</span>
+				</li>
+				<li class="focus">Bachelor of Arts, Literature</li>
+			</ul>
+			<ul class="bullets">
+					<li>GPA: 3.78, Cum Laude, Department Honors, Thesis Honors</li>
+					<li>Best Creative Writing Thesis</li>
+					<li>Editor-In-Chief of the school newspaper</li>
+					<li>Captain of the National Championship winning Ultimate team</li>
+			</ul>			
+		</section>
+		<section class="item" id="6">
+			<time class='end' datetime=''>Present</time>
+			<time class='start' datetime="2009-1-1">January, 2009 	&mdash;</time>
+			<ul class="no-bull">
+				<li>
+					<span class="inst">Freelance Writer</span>
+					<span class="location">Minneapolis, Minnesota</span>
+				</li>
+				<li class="focus">The Wedge, Thrillist Media, Audible.com, OurFamilyWizard</li>
+			</ul>
+			
+			<ul class="bullets">
+					<li>For ThrillistMedia: Authored Minneapolis' most trafficked article with over 300,000 hits</li>
+					<li>For Audible.Com: Generated 80 researched and error-free 90-word promotional blurbs in a single business day</li>
+					<li>For the OurFamilyWizard blog: Recruited legal professionals to serve as pro-bono content contributors</li>
+					<li>For the OurFamilyWizard blog: Developed and executed strategy to boost targeted SEO keywords to top positions</li>
+			</ul>
+		</section>
+		<section class="item" id="7">
+			<time class='end' datetime='2013-2-1'>February, 2013</time>
+			<time class='start' datetime="2008-6-1">June, 2008 	&mdash;</time>
+			<ul class="no-bull">
+				<li>
+					<span class="inst">the OurFamilyWizard website</span>
+					<span class="location">Minneapolis, MN</span>
+				</li>
+				<li class="focus">Communications specialist, QA consultant</li>
+			</ul>
+			<ul class="bullets">
+					<li>Identified and developed solutions to over 200 design and software bugs</li>
+					<li>Facilitated communications between executives and developers for over 250 QA tickets</li>
+					<li>Oversaw client database and managed professional relations</li>
+			</ul>
+		</section>
+		<section class="item" id="8">
+			<time class='end' datetime='2011-3-30'>March, 2011</time>
+			<time class='start' datetime="2010-6-1">June, 2010 	&mdash;</time>
+			<ul class="no-bull">
+				<li>
+					<span class="inst">MTV</span>
+					<span class="location">Los Angeles, California</span>
+				</li>
+				<li class="focus">Writing Intern</li>
+			</ul>
+			<ul class="bullets">
+					<li>Researched teen issues for staff writers</li>
+					<li>Investigated related web content and pitched new media ideas to producers</li>
+			</ul>
+		</section>
+	<main>
+</section>
+<section id="right">
+	<div class="more" id="0"><p>1</div>
+	<div class="more" id="1"><p>1</div>
+	<div class="more" id="2"><p>2</div>
+	<div class="more" id="3"><p>3</div>
+	<div class="more" id="4"><p>4</div>
+	<div class="more" id="5"><p>5</div>
+	<div class="more" id="6"><p>6</div>
+	<div class="more" id="7"><p>7</div>
+	<div class="more" id="8"><p>8</div>
+</section>
+<script src="jquery-1.11.3.js"></script> 
+<script src="script.js"></script> 
+</body>
+</html>
