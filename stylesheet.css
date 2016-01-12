@@ -1,167 +1,183 @@
 body {
-    background-color: white;
-}
-body {
-   color: #050022;
-}
-body {
-	font-family: Arial, Helvetica, sans-serif
-}
-
-
-.top ul {
-	list-style-type: none;
-	padding: 0;
-	margin-top: 0;
-	margin-left: 5em;
-	margin-bottom: 0;
-}
-.top li {
-	display: inline;
-	padding-right: 2em;
-}
-.top {
-
-	position:fixed;
-	top: 0;
-	left: 0%;
-	right: 0%;
-	width:100%;
-	background-color: white;
-	z-index: +1;
-	border-style-right: none;
-	border-style-left:none;
-	border-width: .2em;
-	outline: none;
-	padding-left: 25%;
-	z-index: 3;
-}
-
-
-
-.big-name h1 {
-	font-size:3em;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-.contact-info {
-	font-size: .6em;
-	margin-top: 0em;
-}
-
-.main {
-	position:relative;
-	top:5em;
-	left:0%;
-	right:25%;
-	width: 50%;
-	margin-left: 25%;
-}
-.education {
-	width:100%;
-}
-
-.portrait {
-
-	position:absolute;
-	border: 0px;
-	margin: 0px 0px 0px 0px;
-	left:8.2%;
-	top: 2.5%;
-	z-index: 3;
-	opacity: 0.4;
-}	
-.portrait:hover {
-    opacity: 1.0;
-}
-.item-info ul {
-	list-style-type: none;
-	padding: 0;
-	margin-top: 0;
-}
-.item-info li {
-	display: inline;
-	padding-right: 2em;
-}
-h4{
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-h5{
-	font-style: italic;
-	padding-top: 0;
-	margin-top: 0;
-}
-.experience {
-	border-style: dotted;
-	border-left-style: none; 
-	border-right-style: none;
-	border-color: black;
-	margin-top: -1.5em;
-}
-.hover:hover {
-	background-color: gainsboro;
-	box-shadow: 3px 3px 5px silver;
-}
-
-.hover {
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-top: .25em;
-	padding-bottom: .25em;
-	margin-left: 0em;
-	margin-right: 0em;
-	margin-top: 0em;
-	margin-bottom: 0em;
-}
-
-.ed-title {
-	position:relative;
-	top:7.5em;
-	left:10%;
-}
-
-.exp-title {
-	position: relative;
-	top:6.3em;
-	left:10%;
-}
-
-.date {
-	clear: left;
-	text-align: right;
-	margin-top: -2.3em;
-	right: 25%;
+	background-color: aliceblue;
 }
 
 ul {
-	margin-top: -.5em;
-	padding-top: -1em;
-}
-h5 {
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-li {
-	margin-top: 0;
-	padding-top: 0;
-}
-h4 {
-	margin-bottom: 0;
-	padding-bottom: 0;
-	margin-top: 1;
-	text-decoration: underline;
-}
-h3 {
-	margin-bottom: 0;
-	padding-bottom: 0;
+	margin: 0;
 }
 
-h2 {
-	font-weight: normal;
-	margin-top: 0em;
+
+.item time {
+	float: right;
+	margin-left: .5em;
+	font-size: .7em;
 }
 
-.date2 {
-	right:40%; 
+#timeline {
+	position: absolute;
+	width: 15%;
+	left: 5%;
+	top: 4em;
+}
+
+#timeline time {
+	font-family: sans-serif;
+	margin-left: 5%;
+	display: block;
+	text-align: right;
+	font-size: .9em;
+	padding-right: 30%;
+}
+
+#timeline time.year {
+	font-size: 1.2em;
+	text-align: right;
+	line-height: 1em;
+}
+
+
+#present {
+	margin-bottom: 2em;
+	text-align: right;
+}
+
+
+#middle {
+	position: absolute;
+	left: 20%;
+	top: 2em;
+	font-family: sans-serif;
+	width: 45%;
+}
+
+
+header {
+	position: relative;
+	height: auto;
+	border-bottom: teal thin solid;
+}
+
+#name-art-access ul {
+	padding: 0;
+}
+
+#name-art-access ul li {
+	position: relative;
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+}
+
+#name-art-access li#name {
+	font-size: 3vw;
+}
+
+#name-art-access ul li.art {
+	position: relative;
+	left: 12%;
+	font-size: 2vw;
+
+}
+
+#name-art-access ul li.access {
+	position: relative;
+	left: 25%;
+	font-size: 2vw;
+}
+
+
+#contact-info ul {
+	padding: 0;
+}
+
+#contact-info ul li {
+	position: relative;
+	display: inline;
+	margin-right: 1em;
+	font-size: .9vw;
+}
+
+ul.no-bull li {
+	display: inline;
+}
+
+ul.no-bull {
+	padding: 0;
+}
+
+span.inst {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+span.location {
+	font-style: italic;
+	font-size: .9em;
+}
+
+ul.no-bull li.focus {
+	display: block;
+	text-indent: 1em;
+}
+
+ul.bullets {
+	display: block;
+	list-style-type: disc;
+}
+
+main {
+	position: relative;
+}
+
+.item {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-top: blue thin solid;
+	border-bottom:blue thin solid;
+}
+
+.item:hover {
+	background-color: white;
+	border-top: purple thin solid;
+	border-bottom: purple thin solid;
+}
+
+.highlight {
+	background-color: gainsboro;
+	border-top: purple thin solid;
+	border-bottom: purple thin solid;
+}
+
+.highlight:hover {
+	background-color: gainsboro;
+	border-top: purple thin solid;
+	border-bottom: purple thin solid;
+}
+
+#right {
+	position: absolute;
+	width: 28%;
+	margin-left: 2%;
+	left: 65%;
+	top: 4em;
+
+}
+
+
+.more {
+	width: 100%;
+	background-color: gainsboro;
+	height: 50em;
+	position: absolute;
+	display: none;
+	border-color: purple;
+	border-style: solid;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+
+#lines {
+	position: absolute;
 }
